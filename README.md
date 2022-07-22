@@ -11,21 +11,22 @@ A helper which adds spaces and percentage sign when working with Twig templates.
 The extension will add an additional space after the curser, when adding two opening curly braces
 
 Before:
-`{{ |}}`
-    ^ cursor
+    {{ |}}
+       ^cursor
 
 After:
-`{{ | }}`
-    ^ cursor
+    {{ | }}
+       ^cursor
 
 If a curly brace followed by a percent sign is entered, the extension will add a space and another percentage sign to the closing sign
 
 Before:
-`{% |}`
-    ^ cursor
+    {% |}
+       ^cursor
+
 After:
-`{% | %}`
-    ^ cursor
+    {% | %}
+       ^cursor
 
 The extension expects that the closing brace is added by the editor in general and executes its function after the first space was added.
 
