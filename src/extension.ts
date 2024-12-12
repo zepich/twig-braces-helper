@@ -22,6 +22,8 @@ class Spacer {
             return true;
         } else if (textBefore == '{%' && textAfter.trim() == '}') {
             return true;
+        } else if (textBefore == '{#' && textAfter.trim() == '}') {
+            return true;
         }
 
         return false;
@@ -42,6 +44,8 @@ class Spacer {
                     edit.replace(new vscode.Range(position.line, position.character + 1, position.line, position.character + 1), " ");
                 } else if (textBefore == '{%' && textAfter.trim() == '}') {
                     edit.replace(new vscode.Range(position.line, position.character + 1, position.line, position.character + 1), " %");
+                } else if (textBefore == '{#' && textAfter.trim() == '}') {
+                    edit.replace(new vscode.Range(position.line, position.character + 1, position.line, position.character + 1), " #");
                 }
             });
         }, {undoStopBefore: false, undoStopAfter: false});
