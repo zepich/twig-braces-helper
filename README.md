@@ -32,6 +32,18 @@ After:
     {% | %}
        ^cursor
 
+If a curly brace followed by a number sign is entered, the extension will add a space and another number sign to the closing sign
+
+Before:
+
+    {# |}
+       ^cursor
+
+After:
+
+    {# | #}
+       ^cursor
+
 The extension expects that the closing brace is added by the editor in general and executes its function after the first space was added.
 
 ## Configuration
