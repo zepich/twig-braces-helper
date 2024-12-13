@@ -1,8 +1,8 @@
 # Twig Braces Helper
 
-[![](https://vsmarketplacebadge.apphb.com/version/zepich.twig-braces-helper.svg)](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
-[![](https://vsmarketplacebadge.apphb.com/installs-short/zepich.twig-braces-helper.svg)](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
-[![](https://vsmarketplacebadge.apphb.com/rating-short/zepich.twig-braces-helper.svg)](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
+[![](https://vsmarketplacebadges.dev/version/zepich.twig-braces-helper.png)](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
+[![](https://vsmarketplacebadges.dev/installs-short/zepich.twig-braces-helper.png)](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
+[![](https://vsmarketplacebadges.dev/rating-short/zepich.twig-braces-helper.png)](https://marketplace.visualstudio.com/items?itemName=zepich.twig-braces-helper)
 
 A helper which adds spaces and percentage sign when working with Twig templates.
 

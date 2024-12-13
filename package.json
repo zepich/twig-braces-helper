@@ -2,7 +2,7 @@
     "name": "twig-braces-helper",
     "displayName": "Twig braces helper",
     "description": "Completes the Twig code when entering {{, {% or {#.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "publisher": "zepich",
     "engines": {
         "vscode": "^1.17.0"
